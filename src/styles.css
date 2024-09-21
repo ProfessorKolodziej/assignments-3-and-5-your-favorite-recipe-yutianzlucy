@@ -1,7 +1,16 @@
+body {
+    background-color: rgba(245, 243, 234, 1);
+    line-height: normal;
+}
+
+a {
+    color: black;
+}
+
 h1 {
     font-size: 40px;
     font-family: 'Inria Sans', sans-serif;
-    color:rgba(129, 99, 35, 1);
+    color: rgba(129, 99, 35, 1);
     background-image: url(images/image\ 1.png);
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -11,47 +20,6 @@ h1 {
     box-shadow: 10px 10px 10px rgba(166, 165, 165, 0.5);
     padding: 20px;
     padding-left: 3px;
-}
-
-p {
-    font-family: 'Jaldi', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-a {
-    color: black;
-}
-
-header {
-    padding-top: 15px;
-}
-
-.ingredients {
-    background-color: rgba(225, 225, 225, 1);
-    display: flex; /* Enable flexbox */
-    flex-direction: column;
-    justify-content: center; /* Horizontally center */
-}
-
-.instruction {
-    background-color: rgba(211, 191, 161, 1);
-    display: flex; /* Enable flexbox */
-    flex-direction: column;
-    justify-content: center; /* Horizontally center */
-}
-
-body {
-    background-color: rgba(245, 243, 234, 1);
-    line-height: normal;
-}
-
-h4 {
-    background-color: rgba(225, 225, 225, 1);
-    font-size: 30px;
 }
 
 h2 {
@@ -64,10 +32,18 @@ h3 {
     font-family: 'Inria Sans', sans-serif;
 }
 
-section {
-    display: flex; /* Enable flexbox */
-    flex-direction: column;
-    justify-content: center; /* Horizontally center */
+h4 {
+    background-color: rgba(225, 225, 225, 1);
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 li {
@@ -77,6 +53,30 @@ li {
     padding-bottom: 10px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredients, .instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredients {
+    background-color: rgba(225, 225, 225, 1);
+}
+
+.instruction {
+    background-color: rgba(211, 191, 161, 1);
+}
+
+header {
+    padding-top: 15px;
+}
+
 .time {
-    style="text-align: center"
+    text-align: center;
 }
