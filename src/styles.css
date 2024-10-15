@@ -353,8 +353,6 @@ header img {
     }
 }
 
-
-
 .isDesk {
     display:none;
 }
@@ -426,7 +424,6 @@ header img {
         height: auto;
     }
     h1 {
-        font-family:'Akaya Kanadaka';
         color:#7CA911;
         display:flex;
         flex-direction:column;
@@ -436,6 +433,9 @@ header img {
         position: relative;
         height: unset;
         padding-top: 0;
+        font-family: "Akaya Kanadaka", system-ui;
+        font-weight: 400;
+        font-style: normal;
     }
     h1 .color-1 {
         color:#C45A03;
